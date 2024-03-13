@@ -20,7 +20,6 @@ body {
 
 /*
  * Header
- *
  */
 
 .header {
@@ -43,6 +42,13 @@ body {
   color: #212121;
 }
 
+.header__menu {
+  font-size: 32px;
+  margin: 10px auto;
+  display: block;
+  width: 30px;
+}
+
 /*
  * Top level navigation
  */
@@ -51,13 +57,13 @@ body {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
 }
 
 .nav__list {
   width: 100%;
   padding: 0;
   margin: 0;
-  text-align: center;
 }
 
 .nav__item {
@@ -66,11 +72,12 @@ body {
   width: 24%;
   text-align: center;
   line-height: 24px;
-  padding: 24px;
   text-transform: uppercase;
 }
 
 .nav a {
+  display: inline-block;
+  padding: 1.3em;
   text-decoration: none;
   color: #616161;
 }
@@ -136,7 +143,6 @@ main {
 
 .headline__figure {
   width: 100%;
-  float: left;
 }
 
 .headline__figure img {
@@ -153,8 +159,7 @@ main {
 
 .headline__content {
   width: 100%;
-  float: left;
-  padding: 16px 0px;
+  padding: 16px 0;
 }
 
 .headline__title {
@@ -220,7 +225,6 @@ main {
  */
 
 .post-item {
-  margin: 16px 0;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   width: 100%;
   border-radius: 5px;
@@ -264,7 +268,7 @@ main {
 
 .post-item__description {
   margin-top: 16px;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.5em;
 }
 
@@ -291,6 +295,8 @@ footer li {
 }
 
 footer a {
+  display: inline-block;
+  padding: 1.3em;
   text-decoration: none;
   color: #fff;
 }
